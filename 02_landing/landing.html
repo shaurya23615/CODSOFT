@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Landing Page</title>
+    <link rel="stylesheet" href="landing.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <div class="container header-container">
+            <h1>Learn HTML & CSS</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#structure">Structure</a></li>
+                    <li><a href="#elements">Elements</a></li>
+                    <li><a href="#footer-section">Footer</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="intro" class="hero">
+        <div class="container hero-container">
+            <h2>Build Websites Using HTML & CSS</h2>
+            <p>HTML structures the content of a web page, while CSS styles it beautifully.</p>
+        </div>
+    </section>
+
+    <section id="structure">
+        <div class="container">
+            <h2>Basic HTML Page Structure</h2>
+            <p>Every HTML page uses semantic tags to organize content:</p>
+            <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt; ... &lt;/head&gt;
+  &lt;body&gt;
+    &lt;header&gt; ... &lt;/header&gt;
+    &lt;main&gt; ... &lt;/main&gt;
+    &lt;aside&gt; ... &lt;/aside&gt;
+    &lt;footer&gt; ... &lt;/footer&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+      </pre>
+        </div>
+    </section>
+
+    <section id="elements">
+        <div class="container elements-container">
+            <h2>Common HTML Elements</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Header</h3>
+                    <p>The <code>&lt;header&gt;</code> contains the top section like logos or nav menus.</p>
+                </div>
+                <div class="card">
+                    <h3>Section</h3>
+                    <p>The <code>&lt;section&gt;</code> divides content into meaningful sections.</p>
+                </div>
+                <div class="card">
+                    <h3>Aside</h3>
+                    <p>The <code>&lt;aside&gt;</code> is for side content like tips or related links.</p>
+                </div>
+                <div class="card">
+                    <h3>Footer</h3>
+                    <p>The <code>&lt;footer&gt;</code> contains page footer info, copyright, and links.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <aside class="tip">
+        <div class="container">
+            <h3>Tip</h3>
+            <p>Use semantic HTML tags to improve accessibility, SEO, and readability of your code.</p>
+        </div>
+    </aside>
+
+    <footer id="footer-section">
+        <div class="container footer-container">
+            <p>&copy; 2025 Learn HTML & CSS. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
